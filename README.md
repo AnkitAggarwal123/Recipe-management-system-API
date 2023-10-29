@@ -13,9 +13,6 @@ The Recipe Management System is an API that allows users to store, manage, and i
 - [Validation](#validation)
 - [API Endpoints](#api-endpoints)
 - [MVC Architecture](#mvc-architecture)
-- [Setup and Deployment](#setup-and-deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -64,8 +61,8 @@ The Recipe Management System offers several key features:
 
 To set up your MySQL database connection, configure the following in application.properties:
 
-spring.datasource.url= jdbc:mysql://localhost:3306/recipeDb
-spring.datasource.username={user}
+spring.datasource.url= jdbc:mysql://localhost:3306/recipeDb                                                                                                                              
+spring.datasource.username={user}                                                                                                                                                        
 spring.datasource.password={userpassword}
 
 ## Static IP Address
